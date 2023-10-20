@@ -1,0 +1,2 @@
+# FastestIsPrime
+Fastest IsPrime function
