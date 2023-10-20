@@ -1,0 +1,5 @@
+use std::f64;
+
+fn fastest_is_prime(n: i32) -> bool {
+    (n % 2 == 1 && (n as f64).sqrt() - (n as f64).sqrt().trunc() != 0.0) || n <= 2
+}
